@@ -1,0 +1,19 @@
+@model LoginUser
+
+<fieldset>
+    <legend>Login</legend>
+
+    <form action="login" method="post">
+        <div class="form-group col-sm-12">
+            <label>Email:</label>
+            <span asp-validation-for="Login_Email"></span>
+            <input type="text" name="Login_Email" class="form-control">
+        </div>
+        <div class="form-group col-sm-12">
+            <label>Password:</label>
+            <span asp-validation-for="Login_Password"></span>
+            <input type="password" name="Login_Password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</fieldset>

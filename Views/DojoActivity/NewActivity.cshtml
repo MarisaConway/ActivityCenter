@@ -1,0 +1,49 @@
+@model Activity
+
+<nav class="navbar navbar-dark bg-dark">
+    <h1 class="text-white">Dojo Activity Center</h1>
+    <p class="mr-auto display-inline"> <pre><a href = "/Home">Home</a>             <a href="/Logout">Log off</a></pre></p>
+</nav>
+<hr>
+<div class="container-fluid">
+    <h2>Create An Activity</h2>
+    <form asp-action="ValidateActivity" method="post">
+    <div class="row">
+    <div class="col">
+        <span asp-validation-for="Title"></span><br>
+        <label asp-for="Title"></label><br>
+        <input class="form-control-lg" asp-for="Title"><br>
+    
+        <span asp-validation-for="Date"></span><br>
+        <label asp-for="Date"></label><br>
+        <input class="form-control-lg" asp-for="Date"><br>
+    </div>
+    <div class="col">
+        <span asp-validation-for="Time"></span><br>
+        <label asp-for="Time"></label><br>
+        <input class="form-control-lg" asp-for="Time"><br>
+    
+        <span asp-validation-for="Duration"></span><br>
+        <label asp-for="Duration"></label><br>
+        <input class="form-control-lg" asp-for="Duration"><br>
+    
+        <span asp-validation-for="Duration_Type"></span><br>
+        <label asp-for="Duration_Type"></label><br>
+        <select class="form-control-lg" asp-for="Duration_Type">
+            <option selected value="Hours">Hours</option>
+            <option value="Minutes">Minutes</option>
+            <option value="Days">Days</option>
+        </select><br>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col">
+        <span asp-validation-for="Description"></span><br>
+        <label asp-for="Description"></label><br>
+        <textarea class="" asp-for="Description" cols="85" rows="8"></textarea><br><br>
+        <input value="Create Activity" type="submit">    
+    </div>
+    </div>
+
+    </form>
+</div>

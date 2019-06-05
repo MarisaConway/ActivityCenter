@@ -1,0 +1,42 @@
+@model List<Roster>
+
+<nav class="navbar navbar-dark bg-dark">
+  <h1 class="text-white">Dojo Activity Center</h1>
+    <p class="mr-auto display-inline"> <pre><a href = "/Home">Home</a>             <a href="/Logout">Log off</a></pre></p>
+</nav>
+<hr>
+<br><br>
+<button>@if (ViewBag.this_Activity.UserId == ViewBag.LoggedInUserId)
+                {
+                <a href="/Delete/@ViewBag.this_Activity.ActivityId">Delete</a>
+
+                }
+                else
+                {
+                    if (ViewBag.this_Activity.Status == false)
+                    {
+                        <a href="/join/@ViewBag.this_Activity.ActivityId">Join</a>
+
+                    }
+                    else
+                    {
+                        <a href="/unjoin/@ViewBag.this_Activity.ActivityId">Leave</a>
+
+                    }
+                }</button>
+<h2>@ViewBag.Title</h2>
+<br>
+<div class="container-fluid">
+    <h4>Event Coordinator: @ViewBag.Coordinator</h4>
+    <br>
+    <br>
+    <h4>Description: @ViewBag.Description</h4>
+    <br>
+    <h4>Participants:</h4>
+    <ul>
+    @foreach (var participant in @Model)
+    {
+        <li>@participant.User.Name</li>
+    }
+    </ul>
+</div>
