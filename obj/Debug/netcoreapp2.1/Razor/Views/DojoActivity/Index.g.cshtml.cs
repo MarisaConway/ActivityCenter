@@ -55,7 +55,7 @@ using DojoActivityCenter.Models;
             WriteLiteral("<div class=\"jumbotron jumbotron-fluid bg-primary text-white\">\r\n    <h1 class=\"display-2 text-center\">Welcome to the Dojo Activity Center</h1>\r\n</div>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-sm-8 well\">");
             EndContext();
             BeginContext(203, 28, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4a601a6c417a4f3e985066026d463152", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b98f2f9c20ff4328a4c6622edd3ab366", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -74,7 +74,7 @@ using DojoActivityCenter.Models;
             WriteLiteral("</div>\r\n    <div class=\"col-sm-4 well\">");
             EndContext();
             BeginContext(270, 25, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "690eb32c966a4326b12cbf5a46b0fecd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c033bcf901574dea923968292e59e210", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

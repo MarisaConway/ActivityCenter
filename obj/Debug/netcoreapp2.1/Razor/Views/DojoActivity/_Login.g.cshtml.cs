@@ -57,12 +57,12 @@ using DojoActivityCenter.Models;
             WriteLiteral("\r\n<fieldset>\r\n    <legend>Login</legend>\r\n\r\n    ");
             EndContext();
             BeginContext(66, 587, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c4f8a34839147f2bd4624b7f73bd1d1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45a5cdbcc33449229c9b4eac0c836213", async() => {
                 BeginContext(101, 93, true);
                 WriteLiteral("\r\n        <div class=\"form-group col-sm-12\">\r\n            <label>Email:</label>\r\n            ");
                 EndContext();
                 BeginContext(194, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1d7422c9952434b9a3d4b77e0cb25c2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8603f14b5d348a5bfac6d2ed7de0f41", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
@@ -85,7 +85,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 WriteLiteral("\r\n            <input type=\"text\" name=\"Login_Email\" class=\"form-control\">\r\n        </div>\r\n        <div class=\"form-group col-sm-12\">\r\n            <label>Password:</label>\r\n            ");
                 EndContext();
                 BeginContext(425, 49, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "081102c1754e4ef999d9f3b7930ec5ae", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44f02041324a4fcf955392444497e685", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
